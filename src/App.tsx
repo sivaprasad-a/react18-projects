@@ -1,12 +1,13 @@
 import "./App.css";
+import AuthenticateStorage from "./components/AuthenticateStorage";
 import { Counter } from "./components/Counter";
 
 function App() {
   return (
     <div className="app">
       <div className="container">
-        <h1>React 18 + TypeScript + Redux Toolkit</h1>
-        <Counter />
+        {/* <Counter /> */}
+        <AuthenticateStorage />
       </div>
     </div>
   );
